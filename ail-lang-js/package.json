@@ -1,0 +1,16 @@
+{
+  "name": "ail-lang",
+  "version": "1.0.0",
+  "description": "AI Lingua — The universal inter-AI language",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["ai", "agent", "language", "protocol", "jrvc", "blockchain"],
+  "author": "JARVIS AI Network",
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrvc-network/ail-lang"
+  }
+}

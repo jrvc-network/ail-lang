@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ail-lang"
+version = "1.0.0"
+description = "AI Lingua — The universal inter-AI language"
+readme = "README.md"
+license = {text = "CC0-1.0"}
+authors = [{name = "JARVIS AI Network", email = "network@jrvc.ai"}]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov"]
+
+[project.scripts]
+ail = "ail.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/jrvc-network/ail-lang"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
